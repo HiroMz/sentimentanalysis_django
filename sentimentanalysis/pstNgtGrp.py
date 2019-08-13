@@ -55,10 +55,10 @@ class PstNgtGrp:
         else:
             pos_ratio -= 0.1
             neg_ratio += 0.1
-        pos_width = int(round(2000 * pos_ratio))
-        pos_height = int(round(1600 * pos_ratio))
-        neg_width = int(round(2000 * neg_ratio))
-        neg_height = int(round(1600 * neg_ratio))
+        pos_width = int(round(1000 * pos_ratio))
+        pos_height = int(round(800 * pos_ratio))
+        neg_width = int(round(1000 * neg_ratio))
+        neg_height = int(round(800 * neg_ratio))
         print("Pos width" + str(pos_width) + "Pos height" + str(pos_height))
         def wordcloud_draw(data, color = 'black'):
             words = ' '.join(data)
